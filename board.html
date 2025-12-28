@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Project Status Board</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="board.css">
+</head>
+<body class="board-page">
+  <div class="board-shell">
+    <aside class="board-sidebar">
+      <div class="board-brand">
+        <div>
+          <p class="brand-title">prosthetic-hand</p>
+          <span class="brand-subtitle">Status Boards</span>
+        </div>
+      </div>
+
+      <div class="board-section">
+        <p class="board-section-title">Workspaces</p>
+        <a class="board-link is-active" href="board.html">Project Status Board</a>
+        <a class="board-link" href="index.html">Main Website</a>
+      </div>
+
+      <div class="board-section">
+        <p class="board-section-title">Build Tracks</p>
+        <span class="board-link is-disabled">Mechanical</span>
+        <span class="board-link is-disabled">Electronics</span>
+        <span class="board-link is-disabled">Documentation</span>
+        <span class="board-link is-disabled">Testing</span>
+      </div>
+
+      <div class="board-section">
+        <p class="board-section-title">Views</p>
+        <span class="board-link is-disabled">Board View</span>
+        <span class="board-link is-disabled">Table View</span>
+        <span class="board-link is-disabled">Priority View</span>
+      </div>
+
+      <div class="board-sidebar-footer">
+        <button class="board-sidebar-btn" type="button" disabled>Add board</button>
+        <button class="board-sidebar-btn ghost" type="button" disabled>Settings</button>
+      </div>
+    </aside>
+
+    <main class="board-main">
+      <header class="board-header">
+        <div class="board-heading">
+          <p class="board-crumb">Project status</p>
+          <h1>Project Status Board</h1>
+          <p class="board-subtitle">
+            Current status of work items | 
+            <a href="https://github.com/jassar-robotics/prosthetic-hand-docs" target="_blank" rel="noopener">GitHub repo</a>
+          </p>
+        </div>
+        <div class="board-actions">
+          <span class="board-badge">Read-only</span>
+          <button class="board-btn" type="button" disabled>New</button>
+        </div>
+      </header>
+
+      <div class="board-toolbar">
+        <div class="board-toolbar-group">
+          <span class="board-label">Group by</span>
+          <span class="board-pill">Status</span>
+        </div>
+        <div class="board-toolbar-group">
+          <span class="board-label">Sort</span>
+          <span class="board-pill">Priority</span>
+        </div>
+        <div class="board-toolbar-group">
+          <span class="board-label">Filter</span>
+          <span class="board-pill">Open tasks</span>
+        </div>
+      </div>
+
+      <section class="board-columns" data-board-columns></section>
+      <p class="board-error" data-board-error hidden>Unable to load board data.</p>
+    </main>
+  </div>
+
+  <script src="board.js"></script>
+</body>
+</html>
