@@ -604,8 +604,17 @@ img {
   border-radius: 14px;
 }
 
+.protocol-points {
+  margin: 16px 0 0;
+  padding-left: 20px;
+}
+
+.protocol-points li {
+  margin-bottom: 8px;
+}
+
 .protocol-cta {
-  justify-self: start;
+  margin-top: 16px;
 }
 
 .protocol-panel h4 {
