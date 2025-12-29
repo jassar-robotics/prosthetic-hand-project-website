@@ -467,6 +467,43 @@ img {
   letter-spacing: 1px;
 }
 
+.impact {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.75), rgba(248, 242, 231, 0.85));
+}
+
+.build-cycle {
+  background: #fdf2e3;
+}
+
+.open-source {
+  background: linear-gradient(125deg, rgba(255, 255, 255, 0.75), rgba(243, 230, 212, 0.75));
+}
+
+.faq {
+  background: linear-gradient(150deg, rgba(255, 255, 255, 0.75), rgba(248, 242, 231, 0.9));
+}
+
+.faq-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 22px;
+}
+
+.faq-card {
+  background: #fffdf6;
+  border-radius: 20px;
+  padding: 22px;
+  border-left: 4px solid var(--scarlet);
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.08);
+}
+
+.faq-card h3 {
+  font-family: "Bebas Neue", "Oswald", "Franklin Gothic Medium", "Impact", sans-serif;
+  letter-spacing: 1px;
+  font-size: 1.4rem;
+  margin-bottom: 8px;
+}
+
 .stages {
   background: #fdf6e9;
 }
@@ -494,6 +531,13 @@ img {
   align-items: center;
   position: relative;
   z-index: 1;
+}
+
+.timeline-step h3 {
+  font-family: "Bebas Neue", "Oswald", "Franklin Gothic Medium", "Impact", sans-serif;
+  letter-spacing: 1px;
+  font-size: 1.4rem;
+  margin-bottom: 6px;
 }
 
 .step-index {
