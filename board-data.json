@@ -5,15 +5,15 @@
       "accent": "sand",
       "items": [
         {
-          "title": "Finalize tendon routing map",
+          "title": "Make quick start guide for contributors",
           "priority": "P1",
-          "owner": "AMINA",
+          "owner": "Jazz",
           "date": "Sep 10, 2024"
         },
         {
-          "title": "Source torque-rated micro servos",
+          "title": "Rewrite the website",
           "priority": "P2",
-          "owner": "KAI",
+          "owner": "Hasan",
           "date": "Sep 12, 2024"
         },
         {

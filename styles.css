@@ -595,6 +595,13 @@ img {
   border-radius: 18px;
 }
 
+.protocol-board {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 14px;
+}
+
 .protocol-panel h4 {
   font-family: "Bebas Neue", "Oswald", "Franklin Gothic Medium", "Impact", sans-serif;
   letter-spacing: 1px;
