@@ -4,28 +4,37 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Project Philosophy | Prosthetic Hand</title>
-  <link rel="stylesheet" href="css/styles.css?v=1.3">
-  <link rel="stylesheet" href="css/headings.css?v=1.0">
+  <link rel="stylesheet" href="css/philosophy.css?v=1.0">
   <link rel="stylesheet" href="css/nav-docs.css?v=1.0">
 </head>
-<body class="simple-page">
-  <!-- Universal Navigation -->
+<body>
   <div data-include="partials/sidebar-nav.html"></div>
 
-  <header class="simple-header" id="top">
-    <div class="simple-intro">
-      <p class="simple-kicker">Project Philosophy</p>
-      <h1 class="heading heading--serif heading--size-title heading--space-lg">We are building a prosthetic hand that people can grow with, repair, and own.</h1>
-      <p>
+  <main class="wiki">
+    <header class="page-header" id="top">
+      <p class="eyebrow">Project Philosophy</p>
+      <h1>We are building a prosthetic hand that people can grow with, repair, and own.</h1>
+      <p class="lede">
         This project exists because access should not depend on price, geography, or a closed supply chain.
         We build in public so every test, failure, and improvement becomes a shortcut for the next person.
       </p>
-    </div>
-  </header>
+    </header>
 
-  <main class="simple-main">
-    <section class="simple-section" id="philosophy">
-      <h2 class="heading heading--serif heading--size-panel heading--space-md">Why we build</h2>
+    <nav class="toc" aria-label="Table of contents">
+      <h2>Contents</h2>
+      <ul>
+        <li><a href="#why">Why we build</a></li>
+        <li><a href="#principles">Principles</a></li>
+        <li><a href="#impact">Who this helps</a></li>
+        <li><a href="#process">How we work</a></li>
+        <li><a href="#open-source">Open source commitment</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="#contribute">Contribute</a></li>
+      </ul>
+    </nav>
+
+    <section id="why">
+      <h2>Why we build</h2>
       <p>
         Many prosthetic hands are expensive, hard to repair, and slow to update. Kids outgrow fittings quickly.
         Our answer is an open, modular hand that can be rebuilt, repaired, and improved by anyone with basic tools
@@ -36,9 +45,9 @@
       </p>
     </section>
 
-    <section class="simple-section" id="principles">
-      <h2 class="heading heading--serif heading--size-panel heading--space-md">Principles</h2>
-      <ul class="simple-list">
+    <section id="principles">
+      <h2>Principles</h2>
+      <ul>
         <li><strong>Human-first design.</strong> Comfort, natural motion, and daily tasks guide every decision.</li>
         <li><strong>Growth-ready.</strong> Replaceable parts and sizing guides keep the hand useful as kids grow.</li>
         <li><strong>Repairable everywhere.</strong> Clear parts lists and documented tools prevent supply lock-in.</li>
@@ -47,13 +56,13 @@
       </ul>
     </section>
 
-    <section class="simple-section" id="impact">
-      <h2 class="heading heading--serif heading--size-panel heading--space-md">Who this helps</h2>
+    <section id="impact">
+      <h2>Who this helps</h2>
       <p>
         We design for classrooms, homes, clinics, and workshops. The hand should be adaptable to people and
         environments that change.
       </p>
-      <ul class="simple-list">
+      <ul>
         <li><strong>Kids and teens.</strong> Modular upgrades keep costs low and fit changes quick.</li>
         <li><strong>Parents and caregivers.</strong> Clear assembly and repair guides reduce downtime.</li>
         <li><strong>Clinicians and therapists.</strong> Open notes help review alignment, grip patterns, and comfort.</li>
@@ -62,13 +71,13 @@
       </ul>
     </section>
 
-    <section class="simple-section" id="process">
-      <h2 class="heading heading--serif heading--size-panel heading--space-md">How we work</h2>
+    <section id="process">
+      <h2>How we work</h2>
       <p>
         Open hardware only works when the process is as visible as the result. This is the loop that keeps the
         hand improving and the community aligned.
       </p>
-      <ol class="simple-steps">
+      <ol>
         <li><strong>Listen and define.</strong> Gather feedback from users, parents, and clinicians.</li>
         <li><strong>Prototype and assemble.</strong> Print parts, assemble modules, track what breaks.</li>
         <li><strong>Measure and document.</strong> Log grip tests, cable tension notes, and wiring diagrams.</li>
@@ -76,147 +85,118 @@
       </ol>
     </section>
 
-    <section class="simple-section" id="open-source">
-      <h2 class="heading heading--serif heading--size-panel heading--space-md">Open source commitment</h2>
+    <section id="open-source">
+      <h2>Open source commitment</h2>
       <p>
         We publish the design files, firmware, and documentation so anyone can study, build, or improve the hand.
         The repo license defines the exact terms; our commitment is to keep access open and credit clear.
       </p>
-      <ul class="simple-list">
+      <ul>
         <li><strong>Transparency.</strong> Everyone can see the design logic, not just the final model.</li>
         <li><strong>Resilience.</strong> If one team pauses, another can keep building.</li>
         <li><strong>Local adaptation.</strong> Communities can tune the hand to local materials and needs.</li>
         <li><strong>Faster iteration.</strong> More eyes on the build means faster fixes.</li>
       </ul>
-
-      <div class="simple-callout">
-        <h3 class="heading heading--serif heading--size-xs heading--space-stack">Why you should contribute</h3>
-        <p>Contributing is not just coding. It is impact, learning, and shared credit.</p>
-        <ul class="simple-list compact">
-          <li>Help a kid regain daily independence.</li>
-          <li>Build a portfolio piece with real-world stakes.</li>
-          <li>Learn prosthetics, robotics, and human-centered design.</li>
-          <li>Join a community that documents and credits your work.</li>
-        </ul>
-        <p>Even a small fix today can become a major improvement for someone tomorrow.</p>
-        <a class="simple-cta" href="board.html">See open tasks</a>
-      </div>
+      <p>
+        Contributing is impact, learning, and shared credit. Even a small fix today can become a major improvement
+        for someone tomorrow. <a href="board.html">See open tasks</a>.
+      </p>
     </section>
 
-    <section class="simple-section" id="faq">
-      <h2 class="heading heading--serif heading--size-panel heading--space-md">FAQ</h2>
-      <div class="simple-faq">
-        <details>
-          <summary>Is this a medical device?</summary>
-          <p>No. This is an open hardware project in active development. Any clinical use should be evaluated with qualified professionals and local regulations.</p>
-        </details>
-        <details>
-          <summary>Why focus on kids?</summary>
-          <p>Kids outgrow devices quickly. A modular hand reduces the cost and downtime of upgrades.</p>
-        </details>
-        <details>
-          <summary>What stage is the project in?</summary>
-          <p>We are assembling and wiring the current build. The status board shows live tasks and priorities.</p>
-        </details>
-        <details>
-          <summary>How much does it cost?</summary>
-          <p>We aim to keep costs low and publish parts lists with alternatives. Actual costs vary by region and sourcing.</p>
-        </details>
-        <details>
-          <summary>What makes this different from commercial hands?</summary>
-          <p>Transparency, repairability, and community-driven iteration are built into the process, not added later.</p>
-        </details>
-        <details>
-          <summary>Can I build one at home?</summary>
-          <p>Yes, with access to 3D printing and basic tools. The documentation breaks down parts and assembly steps.</p>
-        </details>
-        <details>
-          <summary>How do you keep quality and safety?</summary>
-          <p>We document tests, publish failures, and review contributions before they are adopted in the build log.</p>
-        </details>
-        <details>
-          <summary>What does open source mean here?</summary>
-          <p>The design files and code are public so you can study and improve them under the repo license.</p>
-        </details>
-        <details>
-          <summary>Who can contribute?</summary>
-          <p>Anyone. We need CAD, electronics, firmware, testing, writing, translation, and outreach help.</p>
-        </details>
-        <details>
-          <summary>Will I get credit for my work?</summary>
-          <p>Yes. Contributions are logged in GitHub and highlighted on the contribution wall.</p>
-        </details>
-        <details>
-          <summary>What happens to my contribution?</summary>
-          <p>It is reviewed, tested, and then merged into the project so others can build on it.</p>
-        </details>
-        <details>
-          <summary>What do you need right now?</summary>
-          <p>Assembly notes, wiring diagrams, sensor tuning, and clean documentation. Check the board for details.</p>
-        </details>
-        <details>
-          <summary>How do you handle user feedback and privacy?</summary>
-          <p>Public logs focus on technical data. Any user feedback is shared only with consent and anonymized.</p>
-        </details>
-        <details>
-          <summary>How do I reach the team?</summary>
-          <p>Open an issue in the GitHub docs or website repo so we can track and respond publicly.</p>
-        </details>
-      </div>
+    <section id="faq">
+      <h2>FAQ</h2>
+      <dl class="faq">
+        <dt>Is this a medical device?</dt>
+        <dd>No. This is an open hardware project in active development. Any clinical use should be evaluated with qualified professionals and local regulations.</dd>
+
+        <dt>Why focus on kids?</dt>
+        <dd>Kids outgrow devices quickly. A modular hand reduces the cost and downtime of upgrades.</dd>
+
+        <dt>What stage is the project in?</dt>
+        <dd>We are assembling and wiring the current build. The status board shows live tasks and priorities.</dd>
+
+        <dt>How much does it cost?</dt>
+        <dd>We aim to keep costs low and publish parts lists with alternatives. Actual costs vary by region and sourcing.</dd>
+
+        <dt>What makes this different from commercial hands?</dt>
+        <dd>Transparency, repairability, and community-driven iteration are built into the process, not added later.</dd>
+
+        <dt>Can I build one at home?</dt>
+        <dd>Yes, with access to 3D printing and basic tools. The documentation breaks down parts and assembly steps.</dd>
+
+        <dt>How do you keep quality and safety?</dt>
+        <dd>We document tests, publish failures, and review contributions before they are adopted in the build log.</dd>
+
+        <dt>What does open source mean here?</dt>
+        <dd>The design files and code are public so you can study and improve them under the repo license.</dd>
+
+        <dt>Who can contribute?</dt>
+        <dd>Anyone. We need CAD, electronics, firmware, testing, writing, translation, and outreach help.</dd>
+
+        <dt>Will I get credit for my work?</dt>
+        <dd>Yes. Contributions are logged in GitHub and highlighted on the contribution wall.</dd>
+
+        <dt>What happens to my contribution?</dt>
+        <dd>It is reviewed, tested, and then merged into the project so others can build on it.</dd>
+
+        <dt>What do you need right now?</dt>
+        <dd>Assembly notes, wiring diagrams, sensor tuning, and clean documentation. Check the board for details.</dd>
+
+        <dt>How do you handle user feedback and privacy?</dt>
+        <dd>Public logs focus on technical data. Any user feedback is shared only with consent and anonymized.</dd>
+
+        <dt>How do I reach the team?</dt>
+        <dd>Open an issue in the GitHub docs or website repo so we can track and respond publicly.</dd>
+      </dl>
     </section>
 
-    <section class="simple-section" id="contribute">
-      <h2 class="heading heading--serif heading--size-panel heading--space-md">Contribute</h2>
+    <section id="contribute">
+      <h2>Contribute</h2>
       <p>There is a place for every kind of contributor. Pick a task that matches your skills, or claim a small fix to get started.</p>
-      <ul class="simple-list">
-        <li><strong>Mechanical + CAD.</strong> Improve finger joints, palm layout, tendon routing, and printable geometry.</li>
-        <li><strong>Electronics + firmware.</strong> Refine wiring harnesses, sensor calibration, and motor control logic.</li>
-        <li><strong>Testing + reliability.</strong> Run grip tests, wear trials, and durability experiments with documented results.</li>
-        <li><strong>Documentation + visuals.</strong> Turn build sessions into guides, diagrams, and clear how-to steps.</li>
-        <li><strong>Community + outreach.</strong> Share the project, recruit contributors, and bring in user feedback.</li>
-        <li><strong>Operations + sourcing.</strong> Find affordable parts and local suppliers that keep builds moving.</li>
+
+      <h3>Ways to help</h3>
+      <ul>
+        <li><strong>Mechanical and CAD.</strong> Improve finger joints, palm layout, tendon routing, and printable geometry.</li>
+        <li><strong>Electronics and firmware.</strong> Refine wiring harnesses, sensor calibration, and motor control logic.</li>
+        <li><strong>Testing and reliability.</strong> Run grip tests, wear trials, and durability experiments with documented results.</li>
+        <li><strong>Documentation and visuals.</strong> Turn build sessions into guides, diagrams, and clear how-to steps.</li>
+        <li><strong>Community and outreach.</strong> Share the project, recruit contributors, and bring in user feedback.</li>
+        <li><strong>Operations and sourcing.</strong> Find affordable parts and local suppliers that keep builds moving.</li>
       </ul>
 
-      <div class="simple-callout">
-        <h3 class="heading heading--serif heading--size-xs heading--space-stack">How to get started</h3>
-        <ol class="simple-steps">
-          <li>Review the latest stage notes and the project board.</li>
-          <li>Pick a task and share your plan in the issue or board.</li>
-          <li>Submit your work with photos, measurements, or files.</li>
-          <li>We review, test, and credit your contribution.</li>
-        </ol>
-        <p>We welcome small fixes, experiments, and new ideas. The only requirement is clear documentation.</p>
-        <a class="simple-cta" href="board.html">Open the status board</a>
-      </div>
+      <h3>How to get started</h3>
+      <ol>
+        <li>Review the latest stage notes and the project board.</li>
+        <li>Pick a task and share your plan in the issue or board.</li>
+        <li>Submit your work with photos, measurements, or files.</li>
+        <li>We review, test, and credit your contribution.</li>
+      </ol>
+      <p>We welcome small fixes, experiments, and new ideas. The only requirement is clear documentation.</p>
 
-      <div class="simple-callout">
-        <h3 class="heading heading--serif heading--size-xs heading--space-stack">What good contributions include</h3>
-        <ul class="simple-list compact">
-          <li>Clear problem statement and context.</li>
-          <li>Measurements, files, and settings for reproducibility.</li>
-          <li>Notes on what did not work.</li>
-          <li>Photos or sketches when helpful.</li>
-          <li>Respectful collaboration and credit to others.</li>
-        </ul>
-      </div>
+      <h3>What good contributions include</h3>
+      <ul>
+        <li>Clear problem statement and context.</li>
+        <li>Measurements, files, and settings for reproducibility.</li>
+        <li>Notes on what did not work.</li>
+        <li>Photos or sketches when helpful.</li>
+        <li>Respectful collaboration and credit to others.</li>
+      </ul>
     </section>
-  </main>
 
-  <footer class="simple-footer">
-    <div class="simple-footer-inner">
+    <footer class="page-footer">
       <div>
-        <h3 class="heading heading--size-footer heading--space-sm">Jassar Robotics</h3>
+        <strong>Jassar Robotics</strong>
         <p>Built in public. Learn the process, join the build, and help shape the next version.</p>
       </div>
-      <div class="simple-footer-links">
+      <div class="footer-links">
         <a href="#top">Back to top</a>
         <a href="index.html">Main site</a>
         <a href="#open-source">Open source</a>
         <a href="#faq">FAQ</a>
         <a href="board.html">Status board</a>
       </div>
-    </div>
-  </footer>
+    </footer>
+  </main>
 
   <script src="js/script.js"></script>
 </body>
